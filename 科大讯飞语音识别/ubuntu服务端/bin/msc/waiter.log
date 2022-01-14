@@ -1,0 +1,1367 @@
+============================================================
+Time  2021/10/13 16:24:45 013 
+============================================================
+[2021/10/13 16:24:45 014] waiter     120  waiter loaded!  
+[2021/10/13 16:24:45 024] network    854  update_iplist  
+[2021/10/13 16:24:45 026] network    536  gethttpresp3  http://open.xf-yun.com:80/ipcfg.txt  unknown  nil  nil  
+[2021/10/13 16:24:45 029] network    501  gethttpresp  http://open.xf-yun.com:80/ipcfg.txt  nil  
+[2021/10/13 16:24:45 034] network    263  gethostbyname  open.xf-yun.com  1  
+[2021/10/13 16:24:45 043] waiter     197  last gc at  1634113485  
+[2021/10/13 16:24:45 051] network    854  update_iplist  
+[2021/10/13 16:24:45 057] waiter     197  last gc at  1634113485  
+[2021/10/13 16:24:45 101] network    245  dns resp  0  1  
+[2021/10/13 16:24:45 103] network    487  gethttpresp dns ok  59.107.24.11  
+[2021/10/13 16:24:45 108] network    445  gethttpresp2  59.107.24.11  80  2  
+[2021/10/13 16:24:45 130] network    465  prot_type  tcp  
+[2021/10/13 16:24:45 205] network    350  connected  2  
+[2021/10/13 16:24:45 215] network    353  send ok  92  2  
+[2021/10/13 16:24:45 501] network    362  readable  2  
+[2021/10/13 16:24:45 523] network    366  HTTP/1.1 200 OK
+Server: Nginx-XF
+Date: Wed, 13 Oct 2021 08:24:45 GMT
+Content-Type: text/plain
+Content-Length: 3455
+Last-Modified: Mon, 08 Jun 2020 12:41:12 GMT
+Connection: close
+ETag: "5ede31e8-d7f"
+Accept-Ranges: bytes
+
+{
+	"open.xf-yun.com": {
+		"IDC": ["bj", "gz", "sh"],
+		"bj": {
+			"bgp": ["42.62.42.10", "42.62.42.18","42.62.42.19","42.62.116.19", "42.62.116.18", "42.62.116.34", "42.62.116.35", "42.62.116.42", "42.62.42.11", "42.62.116.20", "42.62.116.36"]
+		},
+		"sh": {
+			"bgp": ["120.92.238.21", "120.92.238.22", "120.92.238.23", "120.92.238.24", "120.92.238.25", "120.92.238.26", "120.92.238.27", "120.92.238.28"]
+		},
+		"gz": {
+			"bgp": ["59.107.24.5", "59.107.24.3", "59.107.24.7", "59.107.24.11", "59.107.24.13", "58.67.223.139", "58.67.223.138", "58.67.223.140", "58.67.223.141", "58.67.223.142", "58.67.161.131"]
+		}
+	},
+	"dz-ime.xf-yun.com": {
+		"IDC": ["bj", "gz", "sh"],
+		"bj": {
+			"bgp": ["42.62.42.10", "42.62.42.18","42.62.42.19","42.62.116.19"
+[2021/10/13 16:24:45 541] network    366  6.35", "42.62.116.42", "42.62.42.11", "42.62.116.20", "42.62.116.36"]
+		},
+		"sh": {
+			"bgp": ["120.92.238.21", "120.92.238.22", "120.92.238.23", "120.92.238.24", "120.92.238.25", "120.92.238.26", "120.92.238.27", "120.92.238.28"]
+		},
+		"gz": {
+			"bgp": ["59.107.24.5", "59.107.24.3", "59.107.24.7", "59.107.24.11", "59.107.24.13", "58.67.223.139", "58.67.223.138", "58.67.223.140", "58.67.223.141", "58.67.223.142", "58.67.161.131"]
+		}
+	},	
+	"dev.voicecloud.cn": {
+		"IDC": ["bj", "gz", "sh"],
+		"bj": {
+			"bgp": ["42.62.42.10", "42.62.42.18","42.62.42.19","42.62.116.19", "42.62.116.18", "42.62.116.34", "42.62.116.35", "42.62.116.42", "42.62.42.11", "42.62.116.20", "42.62.116.36"]
+		},
+		"sh": {
+			"bgp": ["120.92.238.21", "120.92.238.22", "120.92.238.23", "120.92.238.24", "120.92.238.25", "120.92.238.26", "120.92.238.27", "120.92.238.28"]
+		},
+		"gz": {
+			"bgp": ["59.107.24.5", "59.107.24.3", "59.107.24.7", "59.107.24.11", "59.107.24.13", "58.67.223.139", "58.67.22
+[2021/10/13 16:24:45 546] network    366  58.67.223.142", "58.67.161.131"]
+		}
+	},
+	"imemerge.xf-yun.com": {
+		"IDC": ["bj", "gz"],
+		"bj": {
+			"bgp": ["42.62.42.10", "42.62.42.18","42.62.42.19","42.62.116.19", "42.62.116.18", "42.62.116.34", "42.62.116.35", "42.62.116.42", "42.62.42.11", "42.62.116.20", "42.62.116.36"]
+		},
+		"gz": {
+			"bgp": ["59.107.24.5", "59.107.24.3", "59.107.24.7", "59.107.24.11", "59.107.24.13", "58.67.223.139", "58.67.223.138", "58.67.223.140", "58.67.223.141", "58.67.223.142", "58.67.161.131"]
+		}
+	},
+	"imevip.openspeech.cn": {
+		"IDC": ["bj", "gz"],
+		"bj": {
+			"bgp": ["42.62.42.10", "42.62.42.18","42.62.42.19","42.62.116.19", "42.62.116.18", "42.62.116.34", "42.62.116.35", "42.62.116.42", "42.62.42.11", "42.62.116.20", "42.62.116.36"]
+		},
+		"gz": {
+			"bgp": ["59.107.24.5", "59.107.24.3", "59.107.24.7", "59.107.24.11", "59.107.24.13", "58.67.223.139", "58.67.223.138", "58.67.223.140", "58.67.223.141", "58.67.223.142", "58.67.161.131"]
+		}
+	},
+	"7s.xf-yun.com": {
+		"IDC": ["bj
+[2021/10/13 16:24:45 565] network    366  ", "42.62.42.18","42.62.42.19","42.62.116.19", "42.62.116.18", "42.62.116.34", "42.62.116.35", "42.62.116.42", "42.62.42.11", "42.62.116.20", "42.62.116.36"]
+		},
+		"gz": {
+			"bgp": ["59.107.24.5", "59.107.24.3", "59.107.24.7", "59.107.24.11", "59.107.24.13", "58.67.223.139", "58.67.223.138", "58.67.223.140", "58.67.223.141", "58.67.223.142", "58.67.161.131"]
+		}
+	},
+	"show.openspeech.cn": {
+		"IDC": ["bj"],
+		"bj": {
+			"bgp": ["42.62.42.10", "42.62.42.18","42.62.42.19","42.62.116.19", "42.62.116.18", "42.62.116.34", "42.62.116.35", "42.62.116.42", "42.62.42.11", "42.62.116.20", "42.62.116.36"]
+		}
+	}
+
+}
+  
+[2021/10/13 16:24:45 574] network    773  update iplist http resp  table(300161c0) 0  udata(30019b98) 
+[2021/10/13 16:24:45 577] network    781  update iplist ok  
+[2021/10/13 16:24:45 579] network    803  not encrypted!  
+[2021/10/13 16:24:45 590] network    691  open.xf-yun.com  
+[2021/10/13 16:24:45 594] network    702  bj  
+[2021/10/13 16:24:45 597] network    704  bj  
+[2021/10/13 16:24:45 600] network    95   iptoenv ,  ipcfg  open.xf-yun.com  def  42.62.42.10  
+[2021/10/13 16:24:45 605] network    704  gz  
+[2021/10/13 16:24:45 607] network    704  sh  
+[2021/10/13 16:24:45 612] network    95   iptoenv ,  ipcfg  open.xf-yun.com  cm  42.62.42.10  
+[2021/10/13 16:24:45 661] network    95   iptoenv ,  ipcfg  open.xf-yun.com  ct  42.62.42.10  
+[2021/10/13 16:24:45 673] network    95   iptoenv ,  ipcfg  open.xf-yun.com  cu  42.62.42.10  
+============================================================
+Time  2021/10/14 11:22:54 221 
+============================================================
+[2021/10/14 11:22:54 222] waiter     120  waiter loaded!  
+[2021/10/14 11:22:54 347] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 11:22:54 355] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 11:22:54 359] waiter     197  last gc at  1634181774  
+============================================================
+Time  2021/10/14 22:35:36 092 
+============================================================
+[2021/10/14 22:35:36 093] waiter     120  waiter loaded!  
+[2021/10/14 22:35:36 120] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:35:36 121] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 22:35:36 124] waiter     197  last gc at  1634222136  
+[2021/10/14 22:35:38 471] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:35:38 474] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 22:35:38 476] waiter     197  last gc at  1634222136  
+[2021/10/14 22:35:39 125] network    231  dns timeout!  redns1  
+[2021/10/14 22:35:39 126] network    598  redns dns resp  table(dc023bf0) 10114  nil  nil  
+[2021/10/14 22:35:41 478] network    231  dns timeout!  redns2  
+[2021/10/14 22:35:41 480] network    598  redns dns resp  table(dc278490) 10114  nil  nil  
+[2021/10/14 22:35:42 210] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:35:42 212] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 22:35:42 216] waiter     197  last gc at  1634222136  
+[2021/10/14 22:35:45 217] network    231  dns timeout!  redns3  
+[2021/10/14 22:35:45 218] network    598  redns dns resp  table(dc022040) 10114  nil  nil  
+============================================================
+Time  2021/10/14 22:38:23 134 
+============================================================
+[2021/10/14 22:38:23 135] waiter     120  waiter loaded!  
+[2021/10/14 22:38:23 150] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:38:23 152] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 22:38:23 154] waiter     197  last gc at  1634222303  
+[2021/10/14 22:38:26 156] network    231  dns timeout!  redns1  
+[2021/10/14 22:38:26 157] network    598  redns dns resp  table(200239a0) 10114  nil  nil  
+[2021/10/14 22:38:29 239] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:38:29 241] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 22:38:29 245] waiter     197  last gc at  1634222303  
+[2021/10/14 22:38:32 208] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:38:32 211] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 22:38:32 214] waiter     197  last gc at  1634222303  
+[2021/10/14 22:38:32 246] network    231  dns timeout!  redns2  
+[2021/10/14 22:38:32 247] network    598  redns dns resp  table(20024a10) 10114  nil  nil  
+[2021/10/14 22:38:35 216] network    231  dns timeout!  redns3  
+[2021/10/14 22:38:35 217] network    598  redns dns resp  table(20003fc0) 10114  nil  nil  
+[2021/10/14 22:38:51 910] waiter     184  start upload timer  
+[2021/10/14 22:38:51 914] waiter     185  false  
+[2021/10/14 22:38:51 915] waiter     197  last gc at  1634222303  
+============================================================
+Time  2021/10/14 22:46:45 539 
+============================================================
+[2021/10/14 22:46:45 540] waiter     120  waiter loaded!  
+[2021/10/14 22:46:45 547] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:46:45 548] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 22:46:45 549] waiter     197  last gc at  1634222805  
+[2021/10/14 22:46:48 550] network    231  dns timeout!  redns1  
+[2021/10/14 22:46:48 551] network    598  redns dns resp  table(f402d4d0) 10114  nil  nil  
+[2021/10/14 22:46:51 673] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:46:51 675] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 22:46:51 678] waiter     197  last gc at  1634222805  
+[2021/10/14 22:46:54 607] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:46:54 609] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 22:46:54 612] waiter     197  last gc at  1634222805  
+[2021/10/14 22:46:54 679] network    231  dns timeout!  redns2  
+[2021/10/14 22:46:54 682] network    598  redns dns resp  table(f40163e0) 10114  nil  nil  
+[2021/10/14 22:46:57 613] network    231  dns timeout!  redns3  
+[2021/10/14 22:46:57 614] network    598  redns dns resp  table(f4016680) 10114  nil  nil  
+[2021/10/14 22:47:14 308] waiter     184  start upload timer  
+[2021/10/14 22:47:14 310] waiter     185  false  
+[2021/10/14 22:47:14 311] waiter     197  last gc at  1634222805  
+============================================================
+Time  2021/10/14 22:50:20 895 
+============================================================
+[2021/10/14 22:50:20 896] waiter     120  waiter loaded!  
+[2021/10/14 22:50:20 906] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:50:20 910] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 22:50:20 913] waiter     197  last gc at  1634223020  
+[2021/10/14 22:50:23 915] network    231  dns timeout!  redns1  
+[2021/10/14 22:50:23 917] network    598  redns dns resp  table(3802d4d0) 10114  nil  nil  
+[2021/10/14 22:50:26 965] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:50:26 971] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 22:50:26 978] waiter     197  last gc at  1634223020  
+[2021/10/14 22:50:29 979] network    231  dns timeout!  redns2  
+[2021/10/14 22:50:29 981] network    598  redns dns resp  table(38016460) 10114  nil  nil  
+[2021/10/14 22:50:30 075] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:50:30 078] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 22:50:30 082] waiter     197  last gc at  1634223020  
+[2021/10/14 22:50:33 100] network    231  dns timeout!  redns3  
+[2021/10/14 22:50:33 104] network    598  redns dns resp  table(3802d440) 10114  nil  nil  
+[2021/10/14 22:50:49 674] waiter     184  start upload timer  
+[2021/10/14 22:50:49 725] waiter     185  false  
+[2021/10/14 22:50:49 729] waiter     197  last gc at  1634223020  
+============================================================
+Time  2021/10/14 22:58:19 262 
+============================================================
+[2021/10/14 22:58:19 266] waiter     120  waiter loaded!  
+[2021/10/14 22:58:19 284] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:58:19 285] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 22:58:19 287] waiter     197  last gc at  1634223499  
+[2021/10/14 22:58:22 289] network    231  dns timeout!  redns1  
+[2021/10/14 22:58:22 290] network    598  redns dns resp  table(70015f20) 10114  nil  nil  
+[2021/10/14 22:58:22 540] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:58:22 543] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 22:58:22 546] waiter     197  last gc at  1634223499  
+[2021/10/14 22:58:25 551] network    231  dns timeout!  redns2  
+[2021/10/14 22:58:25 558] network    598  redns dns resp  table(700163e0) 10114  nil  nil  
+[2021/10/14 22:58:28 443] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 22:58:28 447] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 22:58:28 454] waiter     197  last gc at  1634223499  
+[2021/10/14 22:58:31 456] network    231  dns timeout!  redns3  
+[2021/10/14 22:58:31 459] network    598  redns dns resp  table(7002d4d0) 10114  nil  nil  
+[2021/10/14 22:58:47 105] waiter     184  start upload timer  
+[2021/10/14 22:58:47 107] waiter     185  false  
+[2021/10/14 22:58:47 109] waiter     197  last gc at  1634223499  
+[2021/10/14 22:59:14 510] waiter     184  start upload timer  
+[2021/10/14 22:59:14 520] waiter     185  true  
+[2021/10/14 22:59:44 917] waiter     184  start upload timer  
+[2021/10/14 22:59:44 919] waiter     185  true  
+[2021/10/14 23:00:14 552] waiter     184  start upload timer  
+[2021/10/14 23:00:14 554] waiter     185  true  
+============================================================
+Time  2021/10/14 23:00:52 889 
+============================================================
+[2021/10/14 23:00:52 890] waiter     120  waiter loaded!  
+[2021/10/14 23:00:52 911] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:00:52 916] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 23:00:52 919] waiter     197  last gc at  1634223652  
+[2021/10/14 23:00:55 920] network    231  dns timeout!  redns1  
+[2021/10/14 23:00:55 922] network    598  redns dns resp  table(9002d440) 10114  nil  nil  
+[2021/10/14 23:00:58 987] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:00:58 995] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 23:00:59 001] waiter     197  last gc at  1634223652  
+[2021/10/14 23:01:01 925] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:01:01 929] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 23:01:01 932] waiter     197  last gc at  1634223652  
+[2021/10/14 23:01:02 002] network    231  dns timeout!  redns2  
+[2021/10/14 23:01:02 004] network    598  redns dns resp  table(8c414940) 10114  nil  nil  
+[2021/10/14 23:01:04 934] network    231  dns timeout!  redns3  
+[2021/10/14 23:01:04 940] network    598  redns dns resp  table(900167b0) 10114  nil  nil  
+[2021/10/14 23:01:22 007] waiter     184  start upload timer  
+[2021/10/14 23:01:22 012] waiter     185  false  
+[2021/10/14 23:01:22 015] waiter     197  last gc at  1634223652  
+============================================================
+Time  2021/10/14 23:01:32 794 
+============================================================
+[2021/10/14 23:01:32 795] waiter     120  waiter loaded!  
+[2021/10/14 23:01:32 830] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:01:32 834] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 23:01:32 843] waiter     197  last gc at  1634223692  
+[2021/10/14 23:01:35 769] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:01:35 772] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 23:01:35 777] waiter     197  last gc at  1634223692  
+[2021/10/14 23:01:35 845] network    231  dns timeout!  redns1  
+[2021/10/14 23:01:35 846] network    598  redns dns resp  table(48015b90) 10114  nil  nil  
+[2021/10/14 23:01:38 780] network    231  dns timeout!  redns2  
+[2021/10/14 23:01:38 781] network    598  redns dns resp  table(480160d0) 10114  nil  nil  
+[2021/10/14 23:01:38 913] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:01:38 915] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 23:01:38 918] waiter     197  last gc at  1634223692  
+============================================================
+Time  2021/10/14 23:02:12 716 
+============================================================
+[2021/10/14 23:02:12 717] waiter     120  waiter loaded!  
+[2021/10/14 23:02:12 735] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:02:12 752] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 23:02:12 754] waiter     197  last gc at  1634223732  
+[2021/10/14 23:02:15 755] network    231  dns timeout!  redns1  
+[2021/10/14 23:02:15 757] network    598  redns dns resp  table(a8015b60) 10114  nil  nil  
+[2021/10/14 23:02:18 834] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:02:18 839] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 23:02:18 849] waiter     197  last gc at  1634223732  
+[2021/10/14 23:02:21 850] network    231  dns timeout!  redns2  
+[2021/10/14 23:02:21 853] network    598  redns dns resp  table(a80160a0) 10114  nil  nil  
+[2021/10/14 23:02:21 877] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:02:21 880] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 23:02:21 883] waiter     197  last gc at  1634223732  
+[2021/10/14 23:02:24 884] network    231  dns timeout!  redns3  
+[2021/10/14 23:02:24 885] network    598  redns dns resp  table(a802d410) 10114  nil  nil  
+============================================================
+Time  2021/10/14 23:06:03 413 
+============================================================
+[2021/10/14 23:06:03 414] waiter     120  waiter loaded!  
+[2021/10/14 23:06:03 457] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:06:03 459] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 23:06:03 461] waiter     197  last gc at  1634223963  
+[2021/10/14 23:06:06 465] network    231  dns timeout!  redns1  
+[2021/10/14 23:06:06 467] network    598  redns dns resp  table(f8015f60) 10114  nil  nil  
+[2021/10/14 23:06:09 482] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:06:09 485] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 23:06:09 487] waiter     197  last gc at  1634223963  
+[2021/10/14 23:06:12 489] network    231  dns timeout!  redns2  
+[2021/10/14 23:06:12 491] network    598  redns dns resp  table(f0414530) 10114  nil  nil  
+[2021/10/14 23:06:12 581] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:06:12 587] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 23:06:12 601] waiter     197  last gc at  1634223963  
+[2021/10/14 23:06:15 603] network    231  dns timeout!  redns3  
+[2021/10/14 23:06:15 606] network    598  redns dns resp  table(f8016730) 10114  nil  nil  
+[2021/10/14 23:06:32 346] waiter     184  start upload timer  
+[2021/10/14 23:06:32 348] waiter     185  false  
+[2021/10/14 23:06:32 358] waiter     197  last gc at  1634223963  
+[2021/10/14 23:06:59 650] waiter     184  start upload timer  
+[2021/10/14 23:06:59 651] waiter     185  true  
+============================================================
+Time  2021/10/14 23:08:46 208 
+============================================================
+[2021/10/14 23:08:46 209] waiter     120  waiter loaded!  
+[2021/10/14 23:08:46 221] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:08:46 226] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 23:08:46 228] waiter     197  last gc at  1634224126  
+[2021/10/14 23:08:48 191] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:08:48 194] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 23:08:48 200] waiter     197  last gc at  1634224126  
+[2021/10/14 23:08:49 230] network    231  dns timeout!  redns1  
+[2021/10/14 23:08:49 233] network    598  redns dns resp  table(c402d440) 10114  nil  nil  
+[2021/10/14 23:08:51 202] network    231  dns timeout!  redns2  
+[2021/10/14 23:08:51 205] network    598  redns dns resp  table(c40164d0) 10114  nil  nil  
+[2021/10/14 23:08:52 334] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:08:52 336] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 23:08:52 339] waiter     197  last gc at  1634224126  
+[2021/10/14 23:08:55 341] network    231  dns timeout!  redns3  
+[2021/10/14 23:08:55 343] network    598  redns dns resp  table(c40169d0) 10114  nil  nil  
+[2021/10/14 23:09:12 877] waiter     184  start upload timer  
+[2021/10/14 23:09:12 879] waiter     185  false  
+[2021/10/14 23:09:12 880] waiter     197  last gc at  1634224126  
+============================================================
+Time  2021/10/14 23:11:50 510 
+============================================================
+[2021/10/14 23:11:50 511] waiter     120  waiter loaded!  
+[2021/10/14 23:11:50 521] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:11:50 523] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 23:11:50 525] waiter     197  last gc at  1634224310  
+[2021/10/14 23:11:53 527] network    231  dns timeout!  redns1  
+[2021/10/14 23:11:53 528] network    598  redns dns resp  table(ec02d4d0) 10114  nil  nil  
+[2021/10/14 23:11:54 406] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:11:54 408] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 23:11:54 412] waiter     197  last gc at  1634224310  
+[2021/10/14 23:11:57 417] network    231  dns timeout!  redns2  
+[2021/10/14 23:11:57 426] network    598  redns dns resp  table(e44178c0) 10114  nil  nil  
+[2021/10/14 23:11:59 738] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:11:59 740] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 23:11:59 746] waiter     197  last gc at  1634224310  
+[2021/10/14 23:12:02 750] network    231  dns timeout!  redns3  
+[2021/10/14 23:12:02 755] network    598  redns dns resp  table(ec016710) 10114  nil  nil  
+[2021/10/14 23:12:19 135] waiter     184  start upload timer  
+[2021/10/14 23:12:19 144] waiter     185  false  
+[2021/10/14 23:12:19 145] waiter     197  last gc at  1634224310  
+[2021/10/14 23:12:46 409] waiter     184  start upload timer  
+[2021/10/14 23:12:46 414] waiter     185  true  
+============================================================
+Time  2021/10/14 23:41:47 023 
+============================================================
+[2021/10/14 23:41:47 024] waiter     120  waiter loaded!  
+[2021/10/14 23:41:47 148] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:41:47 154] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/14 23:41:47 162] waiter     197  last gc at  1634226107  
+[2021/10/14 23:41:50 164] network    231  dns timeout!  redns1  
+[2021/10/14 23:41:50 169] network    598  redns dns resp  table(5802d460) 10114  nil  nil  
+[2021/10/14 23:41:50 500] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:41:50 502] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/14 23:41:50 505] waiter     197  last gc at  1634226107  
+[2021/10/14 23:41:53 506] network    231  dns timeout!  redns2  
+[2021/10/14 23:41:53 508] network    598  redns dns resp  table(50007e70) 10114  nil  nil  
+[2021/10/14 23:41:56 165] network    627  redns  def  open.xf-yun.com  
+[2021/10/14 23:41:56 168] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/14 23:41:56 171] waiter     197  last gc at  1634226107  
+[2021/10/14 23:41:59 173] network    231  dns timeout!  redns3  
+[2021/10/14 23:41:59 175] network    598  redns dns resp  table(5802d3d0) 10114  nil  nil  
+============================================================
+Time  2021/10/15 00:00:30 112 
+============================================================
+[2021/10/15 00:00:30 113] waiter     120  waiter loaded!  
+[2021/10/15 00:00:30 121] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:00:30 124] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:00:30 126] waiter     197  last gc at  1634227230  
+[2021/10/15 00:00:32 149] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:00:32 152] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:00:32 154] waiter     197  last gc at  1634227230  
+[2021/10/15 00:00:33 127] network    231  dns timeout!  redns1  
+[2021/10/15 00:00:33 128] network    598  redns dns resp  table(6402d440) 10114  nil  nil  
+[2021/10/15 00:00:35 155] network    231  dns timeout!  redns2  
+[2021/10/15 00:00:35 158] network    598  redns dns resp  table(64016410) 10114  nil  nil  
+[2021/10/15 00:00:36 255] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:00:36 258] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:00:36 261] waiter     197  last gc at  1634227230  
+[2021/10/15 00:00:39 263] network    231  dns timeout!  redns3  
+[2021/10/15 00:00:39 264] network    598  redns dns resp  table(64016950) 10114  nil  nil  
+[2021/10/15 00:00:56 841] waiter     184  start upload timer  
+[2021/10/15 00:00:56 842] waiter     185  false  
+[2021/10/15 00:00:56 843] waiter     197  last gc at  1634227230  
+[2021/10/15 00:01:24 160] waiter     184  start upload timer  
+[2021/10/15 00:01:24 161] waiter     185  true  
+============================================================
+Time  2021/10/15 00:04:56 739 
+============================================================
+[2021/10/15 00:04:56 740] waiter     120  waiter loaded!  
+[2021/10/15 00:04:56 748] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:04:56 750] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:04:56 751] waiter     197  last gc at  1634227496  
+[2021/10/15 00:04:59 442] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:04:59 450] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:04:59 452] waiter     197  last gc at  1634227496  
+[2021/10/15 00:04:59 753] network    231  dns timeout!  redns1  
+[2021/10/15 00:04:59 755] network    598  redns dns resp  table(cc015fc0) 10114  nil  nil  
+[2021/10/15 00:05:02 455] network    231  dns timeout!  redns2  
+[2021/10/15 00:05:02 457] network    598  redns dns resp  table(c4416ff0) 10114  nil  nil  
+[2021/10/15 00:05:02 874] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:05:02 875] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:05:02 879] waiter     197  last gc at  1634227496  
+[2021/10/15 00:05:05 881] network    231  dns timeout!  redns3  
+[2021/10/15 00:05:05 886] network    598  redns dns resp  table(cc02d4a0) 10114  nil  nil  
+[2021/10/15 00:05:24 191] waiter     184  start upload timer  
+[2021/10/15 00:05:24 193] waiter     185  false  
+[2021/10/15 00:05:24 195] waiter     197  last gc at  1634227496  
+============================================================
+Time  2021/10/15 00:20:40 017 
+============================================================
+[2021/10/15 00:20:40 018] waiter     120  waiter loaded!  
+[2021/10/15 00:20:40 026] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:20:40 027] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:20:40 029] waiter     197  last gc at  1634228440  
+[2021/10/15 00:20:43 031] network    231  dns timeout!  redns1  
+[2021/10/15 00:20:43 032] network    598  redns dns resp  table(8015f30) 10114  nil  nil  
+[2021/10/15 00:20:47 146] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:20:47 150] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:20:47 154] waiter     197  last gc at  1634228440  
+[2021/10/15 00:20:50 155] network    231  dns timeout!  redns2  
+[2021/10/15 00:20:50 158] network    598  redns dns resp  table(f8025870) 10114  nil  nil  
+[2021/10/15 00:20:50 215] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:20:50 222] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:20:50 226] waiter     197  last gc at  1634228440  
+[2021/10/15 00:20:53 287] network    231  dns timeout!  redns3  
+[2021/10/15 00:20:53 295] network    598  redns dns resp  table(802d410) 10114  nil  nil  
+[2021/10/15 00:21:08 941] waiter     184  start upload timer  
+[2021/10/15 00:21:08 944] waiter     185  false  
+[2021/10/15 00:21:08 946] waiter     197  last gc at  1634228440  
+============================================================
+Time  2021/10/15 00:25:36 145 
+============================================================
+[2021/10/15 00:25:36 146] waiter     120  waiter loaded!  
+[2021/10/15 00:25:36 155] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:25:36 156] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:25:36 162] waiter     197  last gc at  1634228736  
+[2021/10/15 00:25:38 263] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:25:38 265] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:25:38 268] waiter     197  last gc at  1634228736  
+[2021/10/15 00:25:39 164] network    231  dns timeout!  redns1  
+[2021/10/15 00:25:39 165] network    598  redns dns resp  table(1c015ff0) 10114  nil  nil  
+[2021/10/15 00:25:41 268] network    231  dns timeout!  redns2  
+[2021/10/15 00:25:41 270] network    598  redns dns resp  table(1c016530) 10114  nil  nil  
+[2021/10/15 00:25:42 232] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:25:42 233] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:25:42 236] waiter     197  last gc at  1634228736  
+[2021/10/15 00:25:45 237] network    231  dns timeout!  redns3  
+[2021/10/15 00:25:45 238] network    598  redns dns resp  table(1c016a70) 10114  nil  nil  
+[2021/10/15 00:26:02 988] waiter     184  start upload timer  
+[2021/10/15 00:26:02 990] waiter     185  false  
+[2021/10/15 00:26:02 992] waiter     197  last gc at  1634228736  
+============================================================
+Time  2021/10/15 00:36:03 125 
+============================================================
+[2021/10/15 00:36:03 126] waiter     120  waiter loaded!  
+[2021/10/15 00:36:03 134] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:36:03 135] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:36:03 138] waiter     197  last gc at  1634229363  
+[2021/10/15 00:36:06 139] network    231  dns timeout!  redns1  
+[2021/10/15 00:36:06 141] network    598  redns dns resp  table(ac02d440) 10114  nil  nil  
+[2021/10/15 00:36:06 733] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:36:06 735] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:36:06 738] waiter     197  last gc at  1634229363  
+[2021/10/15 00:36:09 740] network    231  dns timeout!  redns2  
+[2021/10/15 00:36:09 741] network    598  redns dns resp  table(a401cc30) 10114  nil  nil  
+[2021/10/15 00:36:12 321] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:36:12 323] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:36:12 325] waiter     197  last gc at  1634229363  
+[2021/10/15 00:36:15 327] network    231  dns timeout!  redns3  
+[2021/10/15 00:36:15 328] network    598  redns dns resp  table(ac02d4d0) 10114  nil  nil  
+[2021/10/15 00:36:31 458] waiter     184  start upload timer  
+[2021/10/15 00:36:31 460] waiter     185  false  
+[2021/10/15 00:36:31 462] waiter     197  last gc at  1634229363  
+============================================================
+Time  2021/10/15 00:38:24 492 
+============================================================
+[2021/10/15 00:38:24 493] waiter     120  waiter loaded!  
+[2021/10/15 00:38:24 501] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:38:24 503] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:38:24 509] waiter     197  last gc at  1634229504  
+[2021/10/15 00:38:26 634] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:38:26 637] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:38:26 640] waiter     197  last gc at  1634229504  
+[2021/10/15 00:38:27 510] network    231  dns timeout!  redns1  
+[2021/10/15 00:38:27 511] network    598  redns dns resp  table(9802d460) 10114  nil  nil  
+[2021/10/15 00:38:29 642] network    231  dns timeout!  redns2  
+[2021/10/15 00:38:29 644] network    598  redns dns resp  table(90034850) 10114  nil  nil  
+[2021/10/15 00:38:30 561] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:38:30 562] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:38:30 565] waiter     197  last gc at  1634229504  
+[2021/10/15 00:38:33 566] network    231  dns timeout!  redns3  
+[2021/10/15 00:38:33 569] network    598  redns dns resp  table(98016920) 10114  nil  nil  
+[2021/10/15 00:38:51 325] waiter     184  start upload timer  
+[2021/10/15 00:38:51 326] waiter     185  false  
+[2021/10/15 00:38:51 327] waiter     197  last gc at  1634229504  
+============================================================
+Time  2021/10/15 00:42:19 941 
+============================================================
+[2021/10/15 00:42:19 942] waiter     120  waiter loaded!  
+[2021/10/15 00:42:19 949] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:42:19 950] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:42:19 952] waiter     197  last gc at  1634229739  
+[2021/10/15 00:42:22 952] network    231  dns timeout!  redns1  
+[2021/10/15 00:42:22 954] network    598  redns dns resp  table(7c02d4d0) 10114  nil  nil  
+[2021/10/15 00:42:26 067] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:42:26 070] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:42:26 072] waiter     197  last gc at  1634229739  
+[2021/10/15 00:42:29 018] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:42:29 021] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:42:29 024] waiter     197  last gc at  1634229739  
+[2021/10/15 00:42:29 073] network    231  dns timeout!  redns2  
+[2021/10/15 00:42:29 076] network    598  redns dns resp  table(74026ae0) 10114  nil  nil  
+[2021/10/15 00:42:32 025] network    231  dns timeout!  redns3  
+[2021/10/15 00:42:32 028] network    598  redns dns resp  table(7c016730) 10114  nil  nil  
+[2021/10/15 00:42:49 046] waiter     184  start upload timer  
+[2021/10/15 00:42:49 048] waiter     185  false  
+[2021/10/15 00:42:49 049] waiter     197  last gc at  1634229739  
+[2021/10/15 00:43:16 286] waiter     184  start upload timer  
+[2021/10/15 00:43:16 290] waiter     185  true  
+============================================================
+Time  2021/10/15 00:44:16 684 
+============================================================
+[2021/10/15 00:44:16 685] waiter     120  waiter loaded!  
+[2021/10/15 00:44:16 697] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:44:16 701] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:44:16 703] waiter     197  last gc at  1634229856  
+[2021/10/15 00:44:19 706] network    231  dns timeout!  redns1  
+[2021/10/15 00:44:19 708] network    598  redns dns resp  table(7c02d4d0) 10114  nil  nil  
+[2021/10/15 00:44:20 196] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:44:20 198] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:44:20 201] waiter     197  last gc at  1634229856  
+[2021/10/15 00:44:23 202] network    231  dns timeout!  redns2  
+[2021/10/15 00:44:23 204] network    598  redns dns resp  table(7c0164a0) 10114  nil  nil  
+[2021/10/15 00:44:25 898] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:44:25 902] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:44:25 906] waiter     197  last gc at  1634229856  
+[2021/10/15 00:44:28 907] network    231  dns timeout!  redns3  
+[2021/10/15 00:44:28 909] network    598  redns dns resp  table(7c016740) 10114  nil  nil  
+[2021/10/15 00:44:44 951] waiter     184  start upload timer  
+[2021/10/15 00:44:44 953] waiter     185  false  
+[2021/10/15 00:44:44 955] waiter     197  last gc at  1634229856  
+[2021/10/15 00:45:12 195] waiter     184  start upload timer  
+[2021/10/15 00:45:12 203] waiter     185  true  
+[2021/10/15 00:45:43 466] waiter     184  start upload timer  
+[2021/10/15 00:45:43 468] waiter     185  true  
+============================================================
+Time  2021/10/15 00:48:46 520 
+============================================================
+[2021/10/15 00:48:46 521] waiter     120  waiter loaded!  
+[2021/10/15 00:48:46 528] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:48:46 535] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:48:46 540] waiter     197  last gc at  1634230126  
+[2021/10/15 00:48:49 542] network    231  dns timeout!  redns1  
+[2021/10/15 00:48:49 547] network    598  redns dns resp  table(24015ef0) 10114  nil  nil  
+[2021/10/15 00:48:52 651] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:48:52 657] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:48:52 662] waiter     197  last gc at  1634230126  
+[2021/10/15 00:48:55 665] network    231  dns timeout!  redns2  
+[2021/10/15 00:48:55 667] network    598  redns dns resp  table(14409620) 10114  nil  nil  
+[2021/10/15 00:48:55 707] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:48:55 710] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:48:55 713] waiter     197  last gc at  1634230126  
+[2021/10/15 00:48:58 714] network    231  dns timeout!  redns3  
+[2021/10/15 00:48:58 717] network    598  redns dns resp  table(240166c0) 10114  nil  nil  
+[2021/10/15 00:49:15 626] waiter     184  start upload timer  
+[2021/10/15 00:49:15 630] waiter     185  false  
+[2021/10/15 00:49:15 631] waiter     197  last gc at  1634230126  
+============================================================
+Time  2021/10/15 00:51:38 596 
+============================================================
+[2021/10/15 00:51:38 605] waiter     120  waiter loaded!  
+[2021/10/15 00:51:38 614] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:51:38 615] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:51:38 617] waiter     197  last gc at  1634230298  
+[2021/10/15 00:51:41 619] network    231  dns timeout!  redns1  
+[2021/10/15 00:51:41 620] network    598  redns dns resp  table(ec015bd0) 10114  nil  nil  
+[2021/10/15 00:51:42 558] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:51:42 560] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:51:42 563] waiter     197  last gc at  1634230298  
+[2021/10/15 00:51:45 568] network    231  dns timeout!  redns2  
+[2021/10/15 00:51:45 589] network    598  redns dns resp  table(e4050fb0) 10114  nil  nil  
+[2021/10/15 00:51:47 790] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:51:47 792] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:51:47 794] waiter     197  last gc at  1634230298  
+[2021/10/15 00:51:50 796] network    231  dns timeout!  redns3  
+[2021/10/15 00:51:50 798] network    598  redns dns resp  table(ec0163a0) 10114  nil  nil  
+[2021/10/15 00:52:07 123] waiter     184  start upload timer  
+[2021/10/15 00:52:07 124] waiter     185  false  
+[2021/10/15 00:52:07 125] waiter     197  last gc at  1634230298  
+============================================================
+Time  2021/10/15 00:53:07 739 
+============================================================
+[2021/10/15 00:53:07 740] waiter     120  waiter loaded!  
+[2021/10/15 00:53:07 748] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:53:07 749] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 00:53:07 752] waiter     197  last gc at  1634230387  
+[2021/10/15 00:53:09 751] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:53:09 754] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 00:53:09 757] waiter     197  last gc at  1634230387  
+[2021/10/15 00:53:10 757] network    231  dns timeout!  redns1  
+[2021/10/15 00:53:10 768] network    598  redns dns resp  table(a8015f60) 10114  nil  nil  
+[2021/10/15 00:53:12 763] network    231  dns timeout!  redns2  
+[2021/10/15 00:53:12 767] network    598  redns dns resp  table(a80164a0) 10114  nil  nil  
+[2021/10/15 00:53:13 930] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 00:53:13 932] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 00:53:13 937] waiter     197  last gc at  1634230387  
+[2021/10/15 00:53:16 939] network    231  dns timeout!  redns3  
+[2021/10/15 00:53:16 942] network    598  redns dns resp  table(a80169e0) 10114  nil  nil  
+[2021/10/15 00:53:34 458] waiter     184  start upload timer  
+[2021/10/15 00:53:34 459] waiter     185  false  
+[2021/10/15 00:53:34 461] waiter     197  last gc at  1634230387  
+[2021/10/15 00:54:01 766] waiter     184  start upload timer  
+[2021/10/15 00:54:01 768] waiter     185  true  
+[2021/10/15 00:54:32 349] waiter     184  start upload timer  
+[2021/10/15 00:54:32 358] waiter     185  true  
+[2021/10/15 00:55:04 713] waiter     184  start upload timer  
+[2021/10/15 00:55:04 714] waiter     185  true  
+[2021/10/15 00:55:37 297] waiter     184  start upload timer  
+[2021/10/15 00:55:37 299] waiter     185  true  
+[2021/10/15 00:56:04 767] waiter     184  start upload timer  
+[2021/10/15 00:56:04 769] waiter     185  true  
+[2021/10/15 00:56:45 628] waiter     184  start upload timer  
+[2021/10/15 00:56:45 631] waiter     185  true  
+[2021/10/15 00:57:16 498] waiter     184  start upload timer  
+[2021/10/15 00:57:16 499] waiter     185  true  
+[2021/10/15 00:57:45 685] waiter     184  start upload timer  
+[2021/10/15 00:57:45 687] waiter     185  true  
+[2021/10/15 00:58:16 454] waiter     184  start upload timer  
+[2021/10/15 00:58:16 456] waiter     185  true  
+[2021/10/15 00:58:45 741] waiter     184  start upload timer  
+[2021/10/15 00:58:45 743] waiter     185  true  
+[2021/10/15 00:59:19 043] waiter     184  start upload timer  
+[2021/10/15 00:59:19 047] waiter     185  true  
+[2021/10/15 00:59:45 799] waiter     184  start upload timer  
+[2021/10/15 00:59:45 801] waiter     185  true  
+[2021/10/15 01:00:22 103] waiter     184  start upload timer  
+[2021/10/15 01:00:22 112] waiter     185  true  
+[2021/10/15 01:00:45 868] waiter     184  start upload timer  
+[2021/10/15 01:00:45 872] waiter     185  true  
+============================================================
+Time  2021/10/15 01:02:23 917 
+============================================================
+[2021/10/15 01:02:23 918] waiter     120  waiter loaded!  
+[2021/10/15 01:02:23 926] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:02:23 927] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 01:02:23 929] waiter     197  last gc at  1634230943  
+[2021/10/15 01:02:25 896] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:02:25 898] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 01:02:25 902] waiter     197  last gc at  1634230943  
+[2021/10/15 01:02:26 931] network    231  dns timeout!  redns1  
+[2021/10/15 01:02:26 935] network    598  redns dns resp  table(1c002fc0) 10114  nil  nil  
+[2021/10/15 01:02:28 904] network    231  dns timeout!  redns2  
+[2021/10/15 01:02:28 906] network    598  redns dns resp  table(1c29b470) 10114  nil  nil  
+[2021/10/15 01:02:30 042] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:02:30 045] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 01:02:30 047] waiter     197  last gc at  1634230943  
+[2021/10/15 01:02:33 049] network    231  dns timeout!  redns3  
+[2021/10/15 01:02:33 051] network    598  redns dns resp  table(1c007b20) 10114  nil  nil  
+[2021/10/15 01:02:52 307] waiter     184  start upload timer  
+[2021/10/15 01:02:52 311] waiter     185  false  
+[2021/10/15 01:02:52 312] waiter     197  last gc at  1634230943  
+[2021/10/15 01:03:17 881] waiter     184  start upload timer  
+[2021/10/15 01:03:17 883] waiter     185  true  
+[2021/10/15 01:03:48 557] waiter     184  start upload timer  
+[2021/10/15 01:03:48 562] waiter     185  true  
+[2021/10/15 01:04:17 942] waiter     184  start upload timer  
+[2021/10/15 01:04:17 943] waiter     185  true  
+[2021/10/15 01:04:50 322] waiter     184  start upload timer  
+[2021/10/15 01:04:50 328] waiter     185  true  
+[2021/10/15 01:05:18 018] waiter     184  start upload timer  
+[2021/10/15 01:05:18 020] waiter     185  true  
+[2021/10/15 01:05:48 134] waiter     184  start upload timer  
+[2021/10/15 01:05:48 135] waiter     185  true  
+[2021/10/15 01:06:18 611] waiter     184  start upload timer  
+[2021/10/15 01:06:18 614] waiter     185  true  
+============================================================
+Time  2021/10/15 01:07:09 624 
+============================================================
+[2021/10/15 01:07:09 625] waiter     120  waiter loaded!  
+[2021/10/15 01:07:09 632] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:07:09 634] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 01:07:09 636] waiter     197  last gc at  1634231229  
+[2021/10/15 01:07:12 111] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:07:12 114] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 01:07:12 116] waiter     197  last gc at  1634231229  
+[2021/10/15 01:07:12 637] network    231  dns timeout!  redns1  
+[2021/10/15 01:07:12 638] network    598  redns dns resp  table(b80280e0) 10114  nil  nil  
+[2021/10/15 01:07:15 125] network    231  dns timeout!  redns2  
+[2021/10/15 01:07:15 129] network    598  redns dns resp  table(b80248c0) 10114  nil  nil  
+[2021/10/15 01:07:15 766] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:07:15 769] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 01:07:15 773] waiter     197  last gc at  1634231229  
+[2021/10/15 01:07:18 773] network    231  dns timeout!  redns3  
+[2021/10/15 01:07:18 781] network    598  redns dns resp  table(b800fa20) 10114  nil  nil  
+[2021/10/15 01:07:38 527] waiter     184  start upload timer  
+[2021/10/15 01:07:38 529] waiter     185  false  
+[2021/10/15 01:07:38 531] waiter     197  last gc at  1634231229  
+[2021/10/15 01:08:04 112] waiter     184  start upload timer  
+[2021/10/15 01:08:04 114] waiter     185  true  
+[2021/10/15 01:08:36 887] waiter     184  start upload timer  
+[2021/10/15 01:08:36 888] waiter     185  true  
+============================================================
+Time  2021/10/15 01:25:18 151 
+============================================================
+[2021/10/15 01:25:18 152] waiter     120  waiter loaded!  
+[2021/10/15 01:25:18 161] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:25:18 162] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 01:25:18 165] waiter     197  last gc at  1634232318  
+[2021/10/15 01:25:21 167] network    231  dns timeout!  redns1  
+[2021/10/15 01:25:21 169] network    598  redns dns resp  table(c8015fa0) 10114  nil  nil  
+[2021/10/15 01:25:24 243] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:25:24 246] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 01:25:24 248] waiter     197  last gc at  1634232318  
+[2021/10/15 01:25:27 215] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:25:27 223] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 01:25:27 240] waiter     197  last gc at  1634232318  
+[2021/10/15 01:25:27 252] network    231  dns timeout!  redns2  
+[2021/10/15 01:25:27 255] network    598  redns dns resp  table(b83ff650) 10114  nil  nil  
+[2021/10/15 01:25:30 243] network    231  dns timeout!  redns3  
+[2021/10/15 01:25:30 246] network    598  redns dns resp  table(c802d4d0) 10114  nil  nil  
+[2021/10/15 01:25:47 475] waiter     184  start upload timer  
+[2021/10/15 01:25:47 478] waiter     185  false  
+[2021/10/15 01:25:47 480] waiter     197  last gc at  1634232318  
+[2021/10/15 01:26:14 738] waiter     184  start upload timer  
+[2021/10/15 01:26:14 740] waiter     185  true  
+============================================================
+Time  2021/10/15 01:27:11 780 
+============================================================
+[2021/10/15 01:27:11 781] waiter     120  waiter loaded!  
+[2021/10/15 01:27:11 789] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:27:11 790] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 01:27:11 791] waiter     197  last gc at  1634232431  
+[2021/10/15 01:27:14 793] network    231  dns timeout!  redns1  
+[2021/10/15 01:27:14 794] network    598  redns dns resp  table(1c0017f0) 10114  nil  nil  
+[2021/10/15 01:27:15 010] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:27:15 014] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 01:27:15 019] waiter     197  last gc at  1634232431  
+[2021/10/15 01:27:18 021] network    231  dns timeout!  redns2  
+[2021/10/15 01:27:18 027] network    598  redns dns resp  table(1c0249c0) 10114  nil  nil  
+[2021/10/15 01:27:18 958] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 01:27:18 960] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 01:27:18 963] waiter     197  last gc at  1634232431  
+[2021/10/15 01:27:21 966] network    231  dns timeout!  redns3  
+[2021/10/15 01:27:21 969] network    598  redns dns resp  table(1c29a2e0) 10114  nil  nil  
+[2021/10/15 01:27:41 416] waiter     184  start upload timer  
+[2021/10/15 01:27:41 423] waiter     185  false  
+[2021/10/15 01:27:41 425] waiter     197  last gc at  1634232431  
+[2021/10/15 01:28:06 992] waiter     184  start upload timer  
+[2021/10/15 01:28:06 994] waiter     185  true  
+[2021/10/15 01:28:37 684] waiter     184  start upload timer  
+[2021/10/15 01:28:37 691] waiter     185  true  
+[2021/10/15 01:33:03 861] waiter     184  start upload timer  
+[2021/10/15 01:33:03 862] waiter     185  true  
+[2021/10/15 01:33:37 553] waiter     184  start upload timer  
+[2021/10/15 01:33:37 555] waiter     185  true  
+[2021/10/15 01:34:03 922] waiter     184  start upload timer  
+[2021/10/15 01:34:03 924] waiter     185  true  
+[2021/10/15 01:34:34 530] waiter     184  start upload timer  
+[2021/10/15 01:34:34 531] waiter     185  true  
+[2021/10/15 01:37:33 920] waiter     184  start upload timer  
+[2021/10/15 01:37:33 926] waiter     185  true  
+[2021/10/15 01:38:05 075] waiter     184  start upload timer  
+[2021/10/15 01:38:05 078] waiter     185  true  
+[2021/10/15 01:38:55 547] waiter     184  start upload timer  
+[2021/10/15 01:38:55 549] waiter     185  true  
+[2021/10/15 01:39:27 736] waiter     184  start upload timer  
+[2021/10/15 01:39:27 738] waiter     185  true  
+[2021/10/15 01:40:28 398] waiter     184  start upload timer  
+[2021/10/15 01:40:28 401] waiter     185  true  
+[2021/10/15 01:40:59 995] waiter     184  start upload timer  
+[2021/10/15 01:40:59 999] waiter     185  true  
+[2021/10/15 01:41:28 459] waiter     184  start upload timer  
+[2021/10/15 01:41:28 461] waiter     185  true  
+[2021/10/15 01:42:01 766] waiter     184  start upload timer  
+[2021/10/15 01:42:01 773] waiter     185  true  
+[2021/10/15 01:42:28 501] waiter     184  start upload timer  
+[2021/10/15 01:42:28 503] waiter     185  true  
+[2021/10/15 01:43:04 733] waiter     184  start upload timer  
+[2021/10/15 01:43:04 735] waiter     185  true  
+[2021/10/15 01:43:28 561] waiter     184  start upload timer  
+[2021/10/15 01:43:28 565] waiter     185  true  
+============================================================
+Time  2021/10/15 02:01:32 258 
+============================================================
+[2021/10/15 02:01:32 259] waiter     120  waiter loaded!  
+[2021/10/15 02:01:32 387] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 02:01:32 389] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 02:01:32 394] waiter     197  last gc at  1634234492  
+[2021/10/15 02:01:35 397] network    231  dns timeout!  redns1  
+[2021/10/15 02:01:35 399] network    598  redns dns resp  table(4402d440) 10114  nil  nil  
+[2021/10/15 02:01:38 357] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 02:01:38 363] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 02:01:38 367] waiter     197  last gc at  1634234492  
+[2021/10/15 02:01:41 324] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 02:01:41 326] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 02:01:41 329] waiter     197  last gc at  1634234492  
+[2021/10/15 02:01:41 368] network    231  dns timeout!  redns2  
+[2021/10/15 02:01:41 369] network    598  redns dns resp  table(44016360) 10114  nil  nil  
+[2021/10/15 02:01:44 332] network    231  dns timeout!  redns3  
+[2021/10/15 02:01:44 335] network    598  redns dns resp  table(44016600) 10114  nil  nil  
+[2021/10/15 02:02:03 071] waiter     184  start upload timer  
+[2021/10/15 02:02:03 076] waiter     185  false  
+[2021/10/15 02:02:03 083] waiter     197  last gc at  1634234492  
+[2021/10/15 02:02:28 937] waiter     184  start upload timer  
+[2021/10/15 02:02:28 939] waiter     185  true  
+[2021/10/15 02:03:03 224] waiter     184  start upload timer  
+[2021/10/15 02:03:03 226] waiter     185  true  
+[2021/10/15 02:12:51 677] waiter     184  start upload timer  
+[2021/10/15 02:12:51 680] waiter     185  true  
+[2021/10/15 02:13:22 090] waiter     184  start upload timer  
+[2021/10/15 02:13:22 093] waiter     185  true  
+[2021/10/15 02:13:51 735] waiter     184  start upload timer  
+[2021/10/15 02:13:51 738] waiter     185  true  
+[2021/10/15 02:14:26 703] waiter     184  start upload timer  
+[2021/10/15 02:14:26 704] waiter     185  true  
+[2021/10/15 02:14:51 818] waiter     184  start upload timer  
+[2021/10/15 02:14:51 822] waiter     185  true  
+[2021/10/15 02:15:27 045] waiter     184  start upload timer  
+[2021/10/15 02:15:27 052] waiter     185  true  
+[2021/10/15 02:16:57 341] waiter     184  start upload timer  
+[2021/10/15 02:16:57 345] waiter     185  true  
+[2021/10/15 02:17:28 110] waiter     184  start upload timer  
+[2021/10/15 02:17:28 112] waiter     185  true  
+[2021/10/15 02:48:36 488] waiter     184  start upload timer  
+[2021/10/15 02:48:36 496] waiter     185  true  
+[2021/10/15 02:49:10 569] waiter     184  start upload timer  
+[2021/10/15 02:49:10 570] waiter     185  true  
+[2021/10/15 02:49:38 477] waiter     184  start upload timer  
+[2021/10/15 02:49:38 479] waiter     185  true  
+[2021/10/15 02:50:18 324] waiter     184  start upload timer  
+[2021/10/15 02:50:18 325] waiter     185  true  
+[2021/10/15 02:50:41 144] waiter     184  start upload timer  
+[2021/10/15 02:50:41 145] waiter     185  true  
+[2021/10/15 02:51:13 192] waiter     184  start upload timer  
+[2021/10/15 02:51:13 201] waiter     185  true  
+[2021/10/15 02:51:41 200] waiter     184  start upload timer  
+[2021/10/15 02:51:41 203] waiter     185  true  
+[2021/10/15 02:52:14 517] waiter     184  start upload timer  
+[2021/10/15 02:52:14 519] waiter     185  true  
+[2021/10/15 02:52:41 276] waiter     184  start upload timer  
+[2021/10/15 02:52:41 279] waiter     185  true  
+[2021/10/15 02:53:21 308] waiter     184  start upload timer  
+[2021/10/15 02:53:21 313] waiter     185  true  
+[2021/10/15 02:53:52 095] waiter     184  start upload timer  
+[2021/10/15 02:53:52 097] waiter     185  true  
+[2021/10/15 02:54:21 364] waiter     184  start upload timer  
+[2021/10/15 02:54:21 367] waiter     185  true  
+============================================================
+Time  2021/10/15 02:55:02 646 
+============================================================
+[2021/10/15 02:55:02 647] waiter     120  waiter loaded!  
+[2021/10/15 02:55:02 655] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 02:55:02 657] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 02:55:02 660] waiter     197  last gc at  1634237702  
+[2021/10/15 02:55:05 661] network    231  dns timeout!  redns1  
+[2021/10/15 02:55:05 663] network    598  redns dns resp  table(c0275890) 10114  nil  nil  
+[2021/10/15 02:55:06 149] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 02:55:06 152] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 02:55:06 160] waiter     197  last gc at  1634237702  
+[2021/10/15 02:55:09 172] network    231  dns timeout!  redns2  
+[2021/10/15 02:55:09 179] network    598  redns dns resp  table(c0024980) 10114  nil  nil  
+[2021/10/15 02:55:11 713] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 02:55:11 716] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 02:55:11 721] waiter     197  last gc at  1634237702  
+[2021/10/15 02:55:14 722] network    231  dns timeout!  redns3  
+[2021/10/15 02:55:14 730] network    598  redns dns resp  table(c0021ea0) 10114  nil  nil  
+[2021/10/15 02:55:32 617] waiter     184  start upload timer  
+[2021/10/15 02:55:32 619] waiter     185  false  
+[2021/10/15 02:55:32 621] waiter     197  last gc at  1634237702  
+[2021/10/15 02:55:58 164] waiter     184  start upload timer  
+[2021/10/15 02:55:58 167] waiter     185  true  
+[2021/10/15 02:56:28 953] waiter     184  start upload timer  
+[2021/10/15 02:56:28 955] waiter     185  true  
+[2021/10/15 02:56:58 217] waiter     184  start upload timer  
+[2021/10/15 02:56:58 221] waiter     185  true  
+[2021/10/15 02:57:30 341] waiter     184  start upload timer  
+[2021/10/15 02:57:30 346] waiter     185  true  
+[2021/10/15 02:57:58 274] waiter     184  start upload timer  
+[2021/10/15 02:57:58 276] waiter     185  true  
+[2021/10/15 02:58:31 558] waiter     184  start upload timer  
+[2021/10/15 02:58:31 560] waiter     185  true  
+[2021/10/15 02:58:58 331] waiter     184  start upload timer  
+[2021/10/15 02:58:58 336] waiter     185  true  
+[2021/10/15 02:59:29 896] waiter     184  start upload timer  
+[2021/10/15 02:59:29 898] waiter     185  true  
+[2021/10/15 02:59:58 401] waiter     184  start upload timer  
+[2021/10/15 02:59:58 405] waiter     185  true  
+[2021/10/15 03:00:30 940] waiter     184  start upload timer  
+[2021/10/15 03:00:30 942] waiter     185  true  
+[2021/10/15 03:00:58 508] waiter     184  start upload timer  
+[2021/10/15 03:00:58 510] waiter     185  true  
+[2021/10/15 03:01:28 853] waiter     184  start upload timer  
+[2021/10/15 03:01:28 855] waiter     185  true  
+[2021/10/15 03:01:58 539] waiter     184  start upload timer  
+[2021/10/15 03:01:58 543] waiter     185  true  
+[2021/10/15 03:02:30 211] waiter     184  start upload timer  
+[2021/10/15 03:02:30 222] waiter     185  true  
+[2021/10/15 03:02:58 591] waiter     184  start upload timer  
+[2021/10/15 03:02:58 594] waiter     185  true  
+[2021/10/15 03:03:31 421] waiter     184  start upload timer  
+[2021/10/15 03:03:31 423] waiter     185  true  
+[2021/10/15 03:03:58 667] waiter     184  start upload timer  
+[2021/10/15 03:03:58 673] waiter     185  true  
+[2021/10/15 03:04:29 484] waiter     184  start upload timer  
+[2021/10/15 03:04:29 486] waiter     185  true  
+[2021/10/15 03:04:58 726] waiter     184  start upload timer  
+[2021/10/15 03:04:58 733] waiter     185  true  
+[2021/10/15 03:05:30 877] waiter     184  start upload timer  
+[2021/10/15 03:05:30 879] waiter     185  true  
+[2021/10/15 03:05:58 793] waiter     184  start upload timer  
+[2021/10/15 03:05:58 799] waiter     185  true  
+[2021/10/15 03:06:32 263] waiter     184  start upload timer  
+[2021/10/15 03:06:32 265] waiter     185  true  
+[2021/10/15 03:06:58 884] waiter     184  start upload timer  
+[2021/10/15 03:06:58 886] waiter     185  true  
+[2021/10/15 03:07:30 215] waiter     184  start upload timer  
+[2021/10/15 03:07:30 217] waiter     185  true  
+[2021/10/15 03:07:58 902] waiter     184  start upload timer  
+[2021/10/15 03:07:58 904] waiter     185  true  
+[2021/10/15 03:08:31 378] waiter     184  start upload timer  
+[2021/10/15 03:08:31 381] waiter     185  true  
+[2021/10/15 03:08:58 973] waiter     184  start upload timer  
+[2021/10/15 03:08:58 975] waiter     185  true  
+[2021/10/15 03:11:08 573] waiter     184  start upload timer  
+[2021/10/15 03:11:08 575] waiter     185  true  
+[2021/10/15 03:11:41 964] waiter     184  start upload timer  
+[2021/10/15 03:11:41 967] waiter     185  true  
+[2021/10/15 03:12:08 645] waiter     184  start upload timer  
+[2021/10/15 03:12:08 646] waiter     185  true  
+[2021/10/15 03:12:39 330] waiter     184  start upload timer  
+[2021/10/15 03:12:39 336] waiter     185  true  
+[2021/10/15 03:13:08 677] waiter     184  start upload timer  
+[2021/10/15 03:13:08 680] waiter     185  true  
+============================================================
+Time  2021/10/15 03:15:52 666 
+============================================================
+[2021/10/15 03:15:52 668] waiter     120  waiter loaded!  
+[2021/10/15 03:15:52 677] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 03:15:52 678] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 03:15:52 680] waiter     197  last gc at  1634238952  
+[2021/10/15 03:15:55 681] network    231  dns timeout!  redns1  
+[2021/10/15 03:15:55 683] network    598  redns dns resp  table(5c02d430) 10114  nil  nil  
+[2021/10/15 03:15:56 605] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 03:15:56 608] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 03:15:56 611] waiter     197  last gc at  1634238952  
+[2021/10/15 03:15:59 613] network    231  dns timeout!  redns2  
+[2021/10/15 03:15:59 617] network    598  redns dns resp  table(5c0160b0) 10114  nil  nil  
+[2021/10/15 03:16:01 859] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 03:16:01 863] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 03:16:01 869] waiter     197  last gc at  1634238952  
+[2021/10/15 03:16:04 871] network    231  dns timeout!  redns3  
+[2021/10/15 03:16:04 873] network    598  redns dns resp  table(5c016350) 10114  nil  nil  
+[2021/10/15 03:16:23 164] waiter     184  start upload timer  
+[2021/10/15 03:16:23 167] waiter     185  false  
+[2021/10/15 03:16:23 170] waiter     197  last gc at  1634238952  
+[2021/10/15 03:16:48 608] waiter     184  start upload timer  
+[2021/10/15 03:16:48 613] waiter     185  true  
+[2021/10/15 03:20:25 891] waiter     184  start upload timer  
+[2021/10/15 03:20:25 894] waiter     185  true  
+[2021/10/15 03:21:01 381] waiter     184  start upload timer  
+[2021/10/15 03:21:01 385] waiter     185  true  
+[2021/10/15 03:21:25 937] waiter     184  start upload timer  
+[2021/10/15 03:21:25 947] waiter     185  true  
+[2021/10/15 03:23:16 091] waiter     184  start upload timer  
+[2021/10/15 03:23:16 093] waiter     185  true  
+[2021/10/15 03:23:46 575] waiter     184  start upload timer  
+[2021/10/15 03:23:46 578] waiter     185  true  
+[2021/10/15 03:24:16 189] waiter     184  start upload timer  
+[2021/10/15 03:24:16 192] waiter     185  true  
+[2021/10/15 03:24:47 756] waiter     184  start upload timer  
+[2021/10/15 03:24:47 757] waiter     185  true  
+[2021/10/15 03:27:18 000] waiter     184  start upload timer  
+[2021/10/15 03:27:18 003] waiter     185  true  
+[2021/10/15 03:27:48 482] waiter     184  start upload timer  
+[2021/10/15 03:27:48 484] waiter     185  true  
+[2021/10/15 03:28:18 078] waiter     184  start upload timer  
+[2021/10/15 03:28:18 084] waiter     185  true  
+============================================================
+Time  2021/10/15 08:24:00 965 
+============================================================
+[2021/10/15 08:24:00 966] waiter     120  waiter loaded!  
+[2021/10/15 08:24:01 072] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 08:24:01 075] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 08:24:01 078] waiter     197  last gc at  1634257441  
+[2021/10/15 08:24:03 367] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 08:24:03 384] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 08:24:03 397] waiter     197  last gc at  1634257441  
+[2021/10/15 08:24:04 079] network    231  dns timeout!  redns1  
+[2021/10/15 08:24:04 080] network    598  redns dns resp  table(c8015ec0) 10114  nil  nil  
+[2021/10/15 08:24:06 398] network    231  dns timeout!  redns2  
+[2021/10/15 08:24:06 401] network    598  redns dns resp  table(c8016400) 10114  nil  nil  
+[2021/10/15 08:24:07 133] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 08:24:07 142] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 08:24:07 147] waiter     197  last gc at  1634257441  
+[2021/10/15 08:24:10 149] network    231  dns timeout!  redns3  
+[2021/10/15 08:24:10 151] network    598  redns dns resp  table(c8016940) 10114  nil  nil  
+[2021/10/15 08:24:28 870] waiter     184  start upload timer  
+[2021/10/15 08:24:28 873] waiter     185  false  
+[2021/10/15 08:24:28 875] waiter     197  last gc at  1634257441  
+[2021/10/15 08:32:15 482] waiter     184  start upload timer  
+[2021/10/15 08:32:15 485] waiter     185  true  
+[2021/10/15 08:36:41 051] waiter     184  start upload timer  
+[2021/10/15 08:36:41 057] waiter     185  true  
+[2021/10/15 08:38:29 350] waiter     184  start upload timer  
+[2021/10/15 08:38:29 353] waiter     185  true  
+[2021/10/15 08:39:01 842] waiter     184  start upload timer  
+[2021/10/15 08:39:01 843] waiter     185  true  
+[2021/10/15 08:42:10 975] waiter     184  start upload timer  
+[2021/10/15 08:42:10 979] waiter     185  true  
+[2021/10/15 08:42:42 224] waiter     184  start upload timer  
+[2021/10/15 08:42:42 227] waiter     185  true  
+[2021/10/15 08:43:11 034] waiter     184  start upload timer  
+[2021/10/15 08:43:11 036] waiter     185  true  
+============================================================
+Time  2021/10/15 08:48:30 811 
+============================================================
+[2021/10/15 08:48:30 812] waiter     120  waiter loaded!  
+[2021/10/15 08:48:30 820] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 08:48:30 822] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 08:48:30 823] waiter     197  last gc at  1634258910  
+[2021/10/15 08:48:33 438] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 08:48:33 441] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 08:48:33 444] waiter     197  last gc at  1634258910  
+[2021/10/15 08:48:33 824] network    231  dns timeout!  redns1  
+[2021/10/15 08:48:33 825] network    598  redns dns resp  table(9002d440) 10114  nil  nil  
+[2021/10/15 08:48:36 445] network    231  dns timeout!  redns2  
+[2021/10/15 08:48:36 447] network    598  redns dns resp  table(90016440) 10114  nil  nil  
+[2021/10/15 08:48:36 926] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 08:48:36 927] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 08:48:36 930] waiter     197  last gc at  1634258910  
+[2021/10/15 08:48:39 932] network    231  dns timeout!  redns3  
+[2021/10/15 08:48:39 933] network    598  redns dns resp  table(90016980) 10114  nil  nil  
+[2021/10/15 08:48:58 877] waiter     184  start upload timer  
+[2021/10/15 08:48:58 879] waiter     185  false  
+[2021/10/15 08:48:58 882] waiter     197  last gc at  1634258910  
+[2021/10/15 08:49:25 451] waiter     184  start upload timer  
+[2021/10/15 08:49:25 454] waiter     185  true  
+[2021/10/15 08:53:35 865] waiter     184  start upload timer  
+[2021/10/15 08:53:35 866] waiter     185  true  
+[2021/10/15 08:54:10 043] waiter     184  start upload timer  
+[2021/10/15 08:54:10 050] waiter     185  true  
+[2021/10/15 08:54:35 938] waiter     184  start upload timer  
+[2021/10/15 08:54:35 940] waiter     185  true  
+[2021/10/15 08:55:07 764] waiter     184  start upload timer  
+[2021/10/15 08:55:07 768] waiter     185  true  
+[2021/10/15 08:58:08 117] waiter     184  start upload timer  
+[2021/10/15 08:58:08 119] waiter     185  true  
+[2021/10/15 09:02:41 950] waiter     184  start upload timer  
+[2021/10/15 09:02:41 952] waiter     185  true  
+[2021/10/15 09:03:46 174] waiter     184  start upload timer  
+[2021/10/15 09:03:46 176] waiter     185  true  
+[2021/10/15 09:04:17 105] waiter     184  start upload timer  
+[2021/10/15 09:04:17 108] waiter     185  true  
+[2021/10/15 09:07:38 328] waiter     184  start upload timer  
+[2021/10/15 09:07:38 330] waiter     185  true  
+[2021/10/15 09:08:15 227] waiter     184  start upload timer  
+[2021/10/15 09:08:15 228] waiter     185  true  
+[2021/10/15 09:08:38 380] waiter     184  start upload timer  
+[2021/10/15 09:08:38 381] waiter     185  true  
+[2021/10/15 09:09:24 985] waiter     184  start upload timer  
+[2021/10/15 09:09:24 988] waiter     185  true  
+[2021/10/15 09:11:18 313] waiter     184  start upload timer  
+[2021/10/15 09:11:18 315] waiter     185  true  
+[2021/10/15 09:13:56 992] waiter     184  start upload timer  
+[2021/10/15 09:13:57 000] waiter     185  true  
+[2021/10/15 09:14:29 685] waiter     184  start upload timer  
+[2021/10/15 09:14:29 688] waiter     185  true  
+[2021/10/15 09:15:49 140] waiter     184  start upload timer  
+[2021/10/15 09:15:49 144] waiter     185  true  
+[2021/10/15 09:16:21 530] waiter     184  start upload timer  
+[2021/10/15 09:16:21 533] waiter     185  true  
+[2021/10/15 09:17:35 769] waiter     184  start upload timer  
+[2021/10/15 09:17:35 771] waiter     185  true  
+[2021/10/15 09:19:54 814] waiter     184  start upload timer  
+[2021/10/15 09:19:54 819] waiter     185  true  
+============================================================
+Time  2021/10/15 09:23:00 875 
+============================================================
+[2021/10/15 09:23:00 876] waiter     120  waiter loaded!  
+[2021/10/15 09:23:00 885] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 09:23:00 887] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 09:23:00 889] waiter     197  last gc at  1634260980  
+[2021/10/15 09:23:03 890] network    231  dns timeout!  redns1  
+[2021/10/15 09:23:03 892] network    598  redns dns resp  table(ec0226a0) 10114  nil  nil  
+[2021/10/15 09:23:03 988] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 09:23:03 991] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 09:23:03 996] waiter     197  last gc at  1634260980  
+[2021/10/15 09:23:06 998] network    231  dns timeout!  redns2  
+[2021/10/15 09:23:07 000] network    598  redns dns resp  table(ec024be0) 10114  nil  nil  
+[2021/10/15 09:23:10 056] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 09:23:10 061] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 09:23:10 064] waiter     197  last gc at  1634260980  
+[2021/10/15 09:23:13 066] network    231  dns timeout!  redns3  
+[2021/10/15 09:23:13 069] network    598  redns dns resp  table(ec0220c0) 10114  nil  nil  
+[2021/10/15 09:23:30 762] waiter     184  start upload timer  
+[2021/10/15 09:23:30 765] waiter     185  false  
+[2021/10/15 09:23:30 770] waiter     197  last gc at  1634260980  
+[2021/10/15 09:23:55 996] waiter     184  start upload timer  
+[2021/10/15 09:23:55 999] waiter     185  true  
+[2021/10/15 09:26:22 219] waiter     184  start upload timer  
+[2021/10/15 09:26:22 223] waiter     185  true  
+[2021/10/15 09:26:55 076] waiter     184  start upload timer  
+[2021/10/15 09:26:55 080] waiter     185  true  
+[2021/10/15 09:28:40 492] waiter     184  start upload timer  
+[2021/10/15 09:28:40 495] waiter     185  true  
+[2021/10/15 09:30:08 987] waiter     184  start upload timer  
+[2021/10/15 09:30:08 989] waiter     185  true  
+[2021/10/15 09:30:43 922] waiter     184  start upload timer  
+[2021/10/15 09:30:43 925] waiter     185  true  
+[2021/10/15 09:33:12 669] waiter     184  start upload timer  
+[2021/10/15 09:33:12 672] waiter     185  true  
+[2021/10/15 09:37:28 694] waiter     184  start upload timer  
+[2021/10/15 09:37:28 700] waiter     185  true  
+[2021/10/15 09:37:59 430] waiter     184  start upload timer  
+[2021/10/15 09:37:59 433] waiter     185  true  
+[2021/10/15 09:40:46 242] waiter     184  start upload timer  
+[2021/10/15 09:40:46 248] waiter     185  true  
+[2021/10/15 09:41:18 523] waiter     184  start upload timer  
+[2021/10/15 09:41:18 529] waiter     185  true  
+[2021/10/15 09:42:30 559] waiter     184  start upload timer  
+[2021/10/15 09:42:30 562] waiter     185  true  
+[2021/10/15 09:43:02 208] waiter     184  start upload timer  
+[2021/10/15 09:43:02 210] waiter     185  true  
+[2021/10/15 09:44:01 285] waiter     184  start upload timer  
+[2021/10/15 09:44:01 297] waiter     185  true  
+[2021/10/15 09:44:34 055] waiter     184  start upload timer  
+[2021/10/15 09:44:34 059] waiter     185  true  
+[2021/10/15 09:46:11 607] waiter     184  start upload timer  
+[2021/10/15 09:46:11 609] waiter     185  true  
+[2021/10/15 09:46:44 578] waiter     184  start upload timer  
+[2021/10/15 09:46:44 582] waiter     185  true  
+[2021/10/15 09:47:11 654] waiter     184  start upload timer  
+[2021/10/15 09:47:11 656] waiter     185  true  
+[2021/10/15 09:47:48 183] waiter     184  start upload timer  
+[2021/10/15 09:47:48 185] waiter     185  true  
+[2021/10/15 09:48:12 155] waiter     184  start upload timer  
+[2021/10/15 09:48:12 157] waiter     185  true  
+[2021/10/15 09:51:09 434] waiter     184  start upload timer  
+[2021/10/15 09:51:09 439] waiter     185  true  
+[2021/10/15 09:52:40 231] waiter     184  start upload timer  
+[2021/10/15 09:52:40 233] waiter     185  true  
+[2021/10/15 09:53:12 489] waiter     184  start upload timer  
+[2021/10/15 09:53:12 491] waiter     185  true  
+[2021/10/15 09:53:53 099] waiter     184  start upload timer  
+[2021/10/15 09:53:53 103] waiter     185  true  
+[2021/10/15 09:54:29 312] waiter     184  start upload timer  
+[2021/10/15 09:54:29 314] waiter     185  true  
+[2021/10/15 09:54:53 145] waiter     184  start upload timer  
+[2021/10/15 09:54:53 149] waiter     185  true  
+[2021/10/15 09:55:23 497] waiter     184  start upload timer  
+[2021/10/15 09:55:23 500] waiter     185  true  
+============================================================
+Time  2021/10/15 09:57:19 646 
+============================================================
+[2021/10/15 09:57:19 646] waiter     120  waiter loaded!  
+[2021/10/15 09:57:19 655] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 09:57:19 656] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 09:57:19 658] waiter     197  last gc at  1634263039  
+[2021/10/15 09:57:22 660] network    231  dns timeout!  redns1  
+[2021/10/15 09:57:22 662] network    598  redns dns resp  table(c429a030) 10114  nil  nil  
+[2021/10/15 09:57:22 841] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 09:57:22 843] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 09:57:22 848] waiter     197  last gc at  1634263039  
+[2021/10/15 09:57:25 849] network    231  dns timeout!  redns2  
+[2021/10/15 09:57:25 851] network    598  redns dns resp  table(c4024af0) 10114  nil  nil  
+[2021/10/15 09:57:28 850] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 09:57:28 855] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 09:57:28 859] waiter     197  last gc at  1634263039  
+[2021/10/15 09:57:31 861] network    231  dns timeout!  redns3  
+[2021/10/15 09:57:31 862] network    598  redns dns resp  table(c400fa20) 10114  nil  nil  
+[2021/10/15 09:57:49 520] waiter     184  start upload timer  
+[2021/10/15 09:57:49 524] waiter     185  false  
+[2021/10/15 09:57:49 529] waiter     197  last gc at  1634263039  
+[2021/10/15 09:58:14 865] waiter     184  start upload timer  
+[2021/10/15 09:58:14 869] waiter     185  true  
+[2021/10/15 09:58:51 065] waiter     184  start upload timer  
+[2021/10/15 09:58:51 067] waiter     185  true  
+============================================================
+Time  2021/10/15 10:09:14 438 
+============================================================
+[2021/10/15 10:09:14 439] waiter     120  waiter loaded!  
+[2021/10/15 10:09:14 453] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 10:09:14 456] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 10:09:14 461] waiter     197  last gc at  1634263754  
+[2021/10/15 10:09:17 462] network    231  dns timeout!  redns1  
+[2021/10/15 10:09:17 464] network    598  redns dns resp  table(24015f20) 10114  nil  nil  
+[2021/10/15 10:09:20 491] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 10:09:20 494] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 10:09:20 496] waiter     197  last gc at  1634263754  
+[2021/10/15 10:09:23 475] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 10:09:23 478] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 10:09:23 482] waiter     197  last gc at  1634263754  
+[2021/10/15 10:09:23 497] network    231  dns timeout!  redns2  
+[2021/10/15 10:09:23 498] network    598  redns dns resp  table(240163b0) 10114  nil  nil  
+[2021/10/15 10:09:26 483] network    231  dns timeout!  redns3  
+[2021/10/15 10:09:26 485] network    598  redns dns resp  table(24016650) 10114  nil  nil  
+[2021/10/15 10:09:44 065] waiter     184  start upload timer  
+[2021/10/15 10:09:44 066] waiter     185  false  
+[2021/10/15 10:09:44 067] waiter     197  last gc at  1634263754  
+============================================================
+Time  2021/10/15 10:10:31 303 
+============================================================
+[2021/10/15 10:10:31 304] waiter     120  waiter loaded!  
+[2021/10/15 10:10:31 312] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 10:10:31 313] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 10:10:31 316] waiter     197  last gc at  1634263831  
+[2021/10/15 10:10:34 317] network    231  dns timeout!  redns1  
+[2021/10/15 10:10:34 319] network    598  redns dns resp  table(6400e460) 10114  nil  nil  
+[2021/10/15 10:10:34 978] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 10:10:34 981] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 10:10:34 998] waiter     197  last gc at  1634263831  
+[2021/10/15 10:10:37 999] network    231  dns timeout!  redns2  
+[2021/10/15 10:10:38 002] network    598  redns dns resp  table(64024ba0) 10114  nil  nil  
+[2021/10/15 10:10:40 478] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 10:10:40 481] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 10:10:40 483] waiter     197  last gc at  1634263831  
+[2021/10/15 10:10:43 484] network    231  dns timeout!  redns3  
+[2021/10/15 10:10:43 488] network    598  redns dns resp  table(640220c0) 10114  nil  nil  
+[2021/10/15 10:11:00 932] waiter     184  start upload timer  
+[2021/10/15 10:11:00 939] waiter     185  false  
+[2021/10/15 10:11:00 945] waiter     197  last gc at  1634263831  
+[2021/10/15 10:11:26 974] waiter     184  start upload timer  
+[2021/10/15 10:11:26 976] waiter     185  true  
+[2021/10/15 10:12:02 545] waiter     184  start upload timer  
+[2021/10/15 10:12:02 548] waiter     185  true  
+[2021/10/15 10:12:29 614] waiter     184  start upload timer  
+[2021/10/15 10:12:29 623] waiter     185  true  
+[2021/10/15 10:13:03 213] waiter     184  start upload timer  
+[2021/10/15 10:13:03 218] waiter     185  true  
+[2021/10/15 10:13:29 546] waiter     184  start upload timer  
+[2021/10/15 10:13:29 550] waiter     185  true  
+[2021/10/15 10:14:00 050] waiter     184  start upload timer  
+[2021/10/15 10:14:00 051] waiter     185  true  
+[2021/10/15 10:14:29 610] waiter     184  start upload timer  
+[2021/10/15 10:14:29 613] waiter     185  true  
+[2021/10/15 10:15:03 195] waiter     184  start upload timer  
+[2021/10/15 10:15:03 200] waiter     185  true  
+[2021/10/15 10:17:48 205] waiter     184  start upload timer  
+[2021/10/15 10:17:48 208] waiter     185  true  
+[2021/10/15 10:18:21 435] waiter     184  start upload timer  
+[2021/10/15 10:18:21 439] waiter     185  true  
+[2021/10/15 10:18:48 294] waiter     184  start upload timer  
+[2021/10/15 10:18:48 297] waiter     185  true  
+[2021/10/15 10:19:20 406] waiter     184  start upload timer  
+[2021/10/15 10:19:20 408] waiter     185  true  
+============================================================
+Time  2021/10/15 10:30:56 762 
+============================================================
+[2021/10/15 10:30:56 763] waiter     120  waiter loaded!  
+[2021/10/15 10:30:56 775] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 10:30:56 777] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 10:30:56 779] waiter     197  last gc at  1634265056  
+[2021/10/15 10:30:59 704] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 10:30:59 722] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 10:30:59 724] waiter     197  last gc at  1634265056  
+[2021/10/15 10:30:59 780] network    231  dns timeout!  redns1  
+[2021/10/15 10:30:59 781] network    598  redns dns resp  table(98015fb0) 10114  nil  nil  
+[2021/10/15 10:31:02 725] network    231  dns timeout!  redns2  
+[2021/10/15 10:31:02 733] network    598  redns dns resp  table(903fb160) 10114  nil  nil  
+[2021/10/15 10:31:02 890] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 10:31:02 892] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 10:31:02 897] waiter     197  last gc at  1634265056  
+[2021/10/15 10:31:05 906] network    231  dns timeout!  redns3  
+[2021/10/15 10:31:05 909] network    598  redns dns resp  table(9802d4d0) 10114  nil  nil  
+[2021/10/15 10:31:24 826] waiter     184  start upload timer  
+[2021/10/15 10:31:24 829] waiter     185  false  
+[2021/10/15 10:31:24 831] waiter     197  last gc at  1634265056  
+[2021/10/15 10:31:51 806] waiter     184  start upload timer  
+[2021/10/15 10:31:51 821] waiter     185  true  
+[2021/10/15 10:32:26 896] waiter     184  start upload timer  
+[2021/10/15 10:32:26 898] waiter     185  true  
+[2021/10/15 10:32:51 824] waiter     184  start upload timer  
+[2021/10/15 10:32:51 826] waiter     185  true  
+[2021/10/15 10:33:23 108] waiter     184  start upload timer  
+[2021/10/15 10:33:23 112] waiter     185  true  
+[2021/10/15 10:33:51 828] waiter     184  start upload timer  
+[2021/10/15 10:33:51 831] waiter     185  true  
+[2021/10/15 10:34:26 837] waiter     184  start upload timer  
+[2021/10/15 10:34:26 838] waiter     185  true  
+[2021/10/15 10:34:51 927] waiter     184  start upload timer  
+[2021/10/15 10:34:51 929] waiter     185  true  
+[2021/10/15 10:35:25 358] waiter     184  start upload timer  
+[2021/10/15 10:35:25 361] waiter     185  true  
+[2021/10/15 10:35:51 964] waiter     184  start upload timer  
+[2021/10/15 10:35:51 967] waiter     185  true  
+[2021/10/15 10:36:24 655] waiter     184  start upload timer  
+[2021/10/15 10:36:24 656] waiter     185  true  
+[2021/10/15 10:36:52 044] waiter     184  start upload timer  
+[2021/10/15 10:36:52 046] waiter     185  true  
+[2021/10/15 10:37:23 730] waiter     184  start upload timer  
+[2021/10/15 10:37:23 733] waiter     185  true  
+[2021/10/15 10:38:05 395] waiter     184  start upload timer  
+[2021/10/15 10:38:05 399] waiter     185  true  
+[2021/10/15 10:38:38 222] waiter     184  start upload timer  
+[2021/10/15 10:38:38 224] waiter     185  true  
+[2021/10/15 10:39:05 537] waiter     184  start upload timer  
+[2021/10/15 10:39:05 541] waiter     185  true  
+[2021/10/15 10:39:37 294] waiter     184  start upload timer  
+[2021/10/15 10:39:37 297] waiter     185  true  
+[2021/10/15 10:40:05 582] waiter     184  start upload timer  
+[2021/10/15 10:40:05 584] waiter     185  true  
+[2021/10/15 10:53:47 292] waiter     184  start upload timer  
+[2021/10/15 10:53:47 295] waiter     185  true  
+[2021/10/15 10:54:19 820] waiter     184  start upload timer  
+[2021/10/15 10:54:19 823] waiter     185  true  
+[2021/10/15 10:54:47 438] waiter     184  start upload timer  
+[2021/10/15 10:54:47 440] waiter     185  true  
+[2021/10/15 10:55:22 573] waiter     184  start upload timer  
+[2021/10/15 10:55:22 579] waiter     185  true  
+============================================================
+Time  2021/10/15 11:00:06 913 
+============================================================
+[2021/10/15 11:00:06 914] waiter     120  waiter loaded!  
+[2021/10/15 11:00:06 921] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 11:00:06 922] network    263  gethostbyname  open.xf-yun.com  redns1  
+[2021/10/15 11:00:06 924] waiter     197  last gc at  1634266806  
+[2021/10/15 11:00:08 987] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 11:00:08 992] network    263  gethostbyname  open.xf-yun.com  redns2  
+[2021/10/15 11:00:08 998] waiter     197  last gc at  1634266806  
+[2021/10/15 11:00:09 925] network    231  dns timeout!  redns1  
+[2021/10/15 11:00:09 927] network    598  redns dns resp  table(7801b330) 10114  nil  nil  
+[2021/10/15 11:00:12 002] network    231  dns timeout!  redns2  
+[2021/10/15 11:00:12 024] network    598  redns dns resp  table(78007620) 10114  nil  nil  
+[2021/10/15 11:00:13 057] network    627  redns  def  open.xf-yun.com  
+[2021/10/15 11:00:13 060] network    263  gethostbyname  open.xf-yun.com  redns3  
+[2021/10/15 11:00:13 063] waiter     197  last gc at  1634266806  
+[2021/10/15 11:00:16 064] network    231  dns timeout!  redns3  
+[2021/10/15 11:00:16 068] network    598  redns dns resp  table(78002cc0) 10114  nil  nil  
+[2021/10/15 11:00:34 387] waiter     184  start upload timer  
+[2021/10/15 11:00:34 389] waiter     185  false  
+[2021/10/15 11:00:34 390] waiter     197  last gc at  1634266806  
+[2021/10/15 11:01:00 960] waiter     184  start upload timer  
+[2021/10/15 11:01:00 965] waiter     185  true  
+[2021/10/15 11:01:34 343] waiter     184  start upload timer  
+[2021/10/15 11:01:34 347] waiter     185  true  
+[2021/10/15 11:02:01 025] waiter     184  start upload timer  
+[2021/10/15 11:02:01 030] waiter     185  true  
+[2021/10/15 11:02:40 025] waiter     184  start upload timer  
+[2021/10/15 11:02:40 026] waiter     185  true  
+[2021/10/15 11:03:05 215] waiter     184  start upload timer  
+[2021/10/15 11:03:05 216] waiter     185  true  
+[2021/10/15 11:03:38 969] waiter     184  start upload timer  
+[2021/10/15 11:03:38 972] waiter     185  true  
+[2021/10/15 11:04:05 281] waiter     184  start upload timer  
+[2021/10/15 11:04:05 287] waiter     185  true  
+[2021/10/15 11:04:37 516] waiter     184  start upload timer  
+[2021/10/15 11:04:37 518] waiter     185  true  

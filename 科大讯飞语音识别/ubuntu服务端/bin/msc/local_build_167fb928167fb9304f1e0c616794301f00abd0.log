@@ -1,0 +1,30 @@
+============================================================
+Time  2021/10/14 10:21:36 569 
+============================================================
+[2021/10/14 10:21:36 570] isr_local  2211 os_type is:  Linux  
+[2021/10/14 10:21:36 573] isr_local  2220 SYS_MSG_LOAD_LOCAL  
+[2021/10/14 10:21:36 576] isr_local  2249 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2021/10/14 10:21:36 581] isr_local  2249 SYS_MSG_REGCB_LOCAL| param0 =  build_grm_cb  
+[2021/10/14 10:21:36 583] isr_local  2262 ASR_LOCAL_MSG_BUILD_GRM  
+[2021/10/14 10:21:36 584] isr_local  1903 grm_init | params:  engine_type = local, 		asr_res_path = fo|res/asr/common.jet, sample_rate = 16000, 		grm_build_path = res/asr/GrmBuilld,   
+[2021/10/14 10:21:36 586] isr_local  805  engine_type  :  local  
+[2021/10/14 10:21:36 587] isr_local  805  asr_res_path  :  fo|res/asr/common.jet  
+[2021/10/14 10:21:36 588] isr_local  805  sample_rate  :  16000  
+[2021/10/14 10:21:36 589] isr_local  805  grm_build_path  :  res/asr/GrmBuilld  
+[2021/10/14 10:21:36 595] isr_local  1002 file count =   1  
+[2021/10/14 10:21:36 596] isr_local  925  file open type is:   fo  
+[2021/10/14 10:21:36 597] isr_local  958  res/asr/common.jet  0  0  
+[2021/10/14 10:21:36 598] isr_local  1020 speech_plus_setting  0  
+[2021/10/14 10:21:36 599] isr_local  1033 2  nil  res/asr/common.jet  0  0  
+[2021/10/14 10:21:36 620] isr_local  1035 res_ver  2  
+[2021/10/14 10:21:36 621] isr_local  1036 res 5  8fa9729447412fcbe7d5b6b744aed7c1  
+[2021/10/14 10:21:36 622] isr_local  1037 res_new_old_mark  v5pp  
+[2021/10/14 10:21:36 623] isr_local  1038 res_usr_name  ""  
+[2021/10/14 10:21:36 624] isr_local  1039 res_expires  1641884515  
+[2021/10/14 10:21:36 625] isr_local  1040 err  0  
+[2021/10/14 10:21:36 626] isr_local  1058 lgi appid and res appid does not match  
+[2021/10/14 10:21:36 627] isr_local  1008 parse respath substr error! :  11210  
+[2021/10/14 10:21:36 628] isr_local  1888 parse_respath error! :  nil  
+[2021/10/14 10:21:36 629] isr_local  1951 grm_init | create grm failed!  
+[2021/10/14 10:21:36 634] isr_local  1644 proc_retcode_grm | errorcode =  11210  
+[2021/10/14 10:21:36 635] isr_local  1636 onGrmLocalServiceCb  11210  nil  

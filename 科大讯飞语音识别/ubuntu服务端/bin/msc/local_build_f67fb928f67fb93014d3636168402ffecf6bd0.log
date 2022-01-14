@@ -1,0 +1,28 @@
+============================================================
+Time  2021/10/14 22:35:27 708 
+============================================================
+[2021/10/14 22:35:27 709] isr_local  2211 os_type is:  Linux  
+[2021/10/14 22:35:27 711] isr_local  2220 SYS_MSG_LOAD_LOCAL  
+[2021/10/14 22:35:27 714] isr_local  2249 SYS_MSG_REGCB_LOCAL| param0 =  msp_status_cb  
+[2021/10/14 22:35:27 719] isr_local  2249 SYS_MSG_REGCB_LOCAL| param0 =  build_grm_cb  
+[2021/10/14 22:35:27 723] isr_local  2262 ASR_LOCAL_MSG_BUILD_GRM  
+[2021/10/14 22:35:27 724] isr_local  1903 grm_init | params:  engine_type = local, 		asr_res_path = fo|res/asr/common.jet, sample_rate = 16000, 		grm_build_path = res/asr/GrmBuilld,   
+[2021/10/14 22:35:27 726] isr_local  805  engine_type  :  local  
+[2021/10/14 22:35:27 727] isr_local  805  asr_res_path  :  fo|res/asr/common.jet  
+[2021/10/14 22:35:27 728] isr_local  805  sample_rate  :  16000  
+[2021/10/14 22:35:27 729] isr_local  805  grm_build_path  :  res/asr/GrmBuilld  
+[2021/10/14 22:35:27 736] isr_local  1002 file count =   1  
+[2021/10/14 22:35:27 737] isr_local  925  file open type is:   fo  
+[2021/10/14 22:35:27 738] isr_local  958  res/asr/common.jet  0  0  
+[2021/10/14 22:35:27 740] isr_local  1020 speech_plus_setting  0  
+[2021/10/14 22:35:27 741] isr_local  1033 2  nil  res/asr/common.jet  0  0  
+[2021/10/14 22:35:27 745] isr_local  1035 res_ver  2  
+[2021/10/14 22:35:27 747] isr_local  1036 res 5  8fa9729447412fcbe7d5b6b744aed7c1  
+[2021/10/14 22:35:27 748] isr_local  1037 res_new_old_mark  v5pp  
+[2021/10/14 22:35:27 749] isr_local  1038 res_usr_name  ""  
+[2021/10/14 22:35:27 750] isr_local  1039 res_expires  1641884515  
+[2021/10/14 22:35:27 751] isr_local  1040 err  0  
+[2021/10/14 22:35:27 752] isr_local  1071 now expires:  1634222127  1641884515  
+[2021/10/14 22:35:27 770] isr_local  1644 proc_retcode_grm | errorcode =  0  
+[2021/10/14 22:35:27 823] isr_local  2022 grammar id:call  
+[2021/10/14 22:35:27 825] isr_local  1636 onGrmLocalServiceCb  0  call  

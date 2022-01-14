@@ -1,0 +1,12 @@
+﻿#BNF+IAT 1.0 UTF-8;
+!grammar call;
+!slot <want>;
+!slot <dialpre>;
+!slot <dialsuf>;
+!slot <contact>;
+
+!start <callstart>;
+<callstart>:<dial>;
+<dial>:<dialpre><contact>;
+<dialpre>:显示!id(10001)|打开!id(10002)|返回!id(10003);
+<contact>:相册|视频|菜单|快进|下一首|暂停|播放;
